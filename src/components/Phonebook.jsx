@@ -48,7 +48,7 @@ export default function Phonebook() {
 
   return (
     <div dir="rtl" className="p-6 max-w-xl mx-auto space-y-8">
-      {/* فرم افزودن مخاطب */}
+  
       <form
         onSubmit={handleAdd}
         className="space-y-4 bg-white shadow rounded-xl p-4"
@@ -82,7 +82,7 @@ export default function Phonebook() {
         </button>
       </form>
 
-      {/* لیست مخاطبین */}
+
       <ul className="space-y-4">
         {state.contacts.map((c) => (
           <li
